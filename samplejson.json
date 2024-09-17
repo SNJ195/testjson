@@ -1,0 +1,30 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Sample Dashboard",
+    "tags": [
+      "sample"
+    ],
+    "timezone": "browser",
+    "rows": [
+      {
+        "title": "Sample Row",
+        "panels": [
+          {
+            "title": "Sample Panel",
+            "type": "graph",
+            "datasource": "sample_datasource_name",
+            "targets": [
+              {
+                "expr": "sample_metric_query"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemaVersion": 22,
+    "version": 0
+  },
+  "overwrite": false
+}
